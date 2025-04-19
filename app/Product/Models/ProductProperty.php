@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
 
 class ProductProperty extends Pivot
 {
-    protected $table = 'product_properties';
+    protected $table = 'product_property';
 
     public function product(): BelongsTo
     {
